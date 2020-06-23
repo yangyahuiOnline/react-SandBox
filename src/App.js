@@ -6,7 +6,7 @@ import List from "./list";
 export default function App() {
   const a = 24;
   /**
-   * 全局挂载lodash
+   * 全局挂载lodash至window变量
    */
   window._ = _;
   console.log(window);
