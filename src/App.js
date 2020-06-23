@@ -7,6 +7,7 @@ export default function App() {
   const a = 24;
   /**
    * 全局挂载lodash至window变量
+   * 下一步思考，有没有更优雅的方式
    */
   window._ = _;
   console.log(window);
