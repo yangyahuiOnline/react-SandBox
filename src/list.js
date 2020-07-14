@@ -87,7 +87,7 @@ export default function List() {
         <li>cccc</li>
         <li>dddd</li>
         <li>ffff</li>
-        <li>{_.get(obj, ["name"])}</li>
+        <li>{window._.get(obj, ["name"])}</li>
       </ul>
     </div>
   );
